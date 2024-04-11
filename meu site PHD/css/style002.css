@@ -81,7 +81,14 @@ body {
     text-decoration: none;
     cursor: pointer;
     color: white;
-    
   }
+
+footer {
+    background-color: #4731d4;
+    text-align: center;
+    border: solid #4731d4 5px;
+    color: white;
+    margin-top: 40px;
+    }
 
   
