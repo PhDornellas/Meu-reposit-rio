@@ -37,7 +37,10 @@ nav {
     color: black;
     cursor: pointer;
 }
-
+nav li a:hover{
+    color:#9ab664;
+    transition: linear .3s;
+  }
 
 
 /* FIM cabeçalho*/
@@ -69,10 +72,27 @@ p{
     text-align: left;
     text-align: justify;
 }
-footer {
-    background-color: #4731d4;
-    text-align: center;
-    border: solid #4731d4 5px;
+.rodape {
     color: white;
-    margin-top: 40px;
-    }
+    background-color: #3c2ab4;
+    bottom: 0px;
+    width: 100%;
+    position: fixed;
+    padding: 5px;
+}
+
+.div-rodape {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.div-rodape p {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}

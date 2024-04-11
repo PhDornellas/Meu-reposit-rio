@@ -30,12 +30,17 @@ nav {
   display: flex;
 }
 
-.nav-itens>li>a {
+.nav-itens li a {
   padding-left: 20px;
   padding-right: 10px;
   text-decoration: none;
   color: black;
   cursor: pointer;
+}
+
+nav li a:hover{
+  color:#9ab664;
+  transition: linear .3s;
 }
 
 
@@ -83,12 +88,29 @@ body {
     color: white;
   }
 
-footer {
-    background-color: #4731d4;
+  .rodape {
+    color: black;
+    background-color: #3c2ab4;
+    bottom: 0px;
+    width: 100%;
+    position: fixed;
+    padding: 5px;
+}
+
+.div-rodape {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.div-rodape p {
     text-align: center;
-    border: solid #4731d4 5px;
-    color: white;
-    margin-top: 40px;
-    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
 
   

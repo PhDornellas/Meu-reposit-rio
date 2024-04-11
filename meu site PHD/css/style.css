@@ -5,7 +5,7 @@
 }
 
 header {
-    padding-bottom: 30px;
+    /*padding-bottom: 30px;*/
 }
 
 body {
@@ -33,7 +33,7 @@ nav {
 
 }
 
-.nav-itens>li>a {
+.nav-itens li a {
     padding-left: 20px;
     padding-right: 10px;
     text-decoration: none;
@@ -42,8 +42,9 @@ nav {
     position: relative;
 }
 
-nav :hover {
-    background-color: white;
+nav li a:hover {
+    transition: linear .3s;
+    color: #9ab664;
 }
 
 /* FIM cabeçalho*/
@@ -58,11 +59,22 @@ nav :hover {
     border-radius: 15px;
     box-shadow: 3px 3px 1px #3c2ab4;
     font-size: large;
+}
+
+.container2 {
+    height: 680px;
     display: flex;
 }
 
+.teste {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    letter-spacing: 3px;
+}
+
 img {
-    margin-left: 550px;
+
     border-radius: 15px;
     width: auto;
 }
@@ -74,10 +86,27 @@ p {
     margin-left: 20px;
 }
 
-footer {
-    background-color: #4731d4;
-    text-align: center;
-    border: solid #4731d4 5px;
+.rodape {
     color: white;
-    margin-top: 40px;
+    background-color: #3c2ab4;
+    bottom: 0px;
+    width: 100%;
+    position: fixed;
+    padding: 5px;
+}
+
+.div-rodape {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.div-rodape p {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
 }
