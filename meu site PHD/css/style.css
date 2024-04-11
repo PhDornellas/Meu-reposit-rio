@@ -3,7 +3,8 @@
     margin: 0;
     box-sizing: border-box;
 }
-header{
+
+header {
     padding-bottom: 30px;
 }
 
@@ -29,9 +30,10 @@ nav {
 .nav-itens {
     list-style: none;
     display: flex;
-    
+
 }
-.nav-itens>li>a{
+
+.nav-itens>li>a {
     padding-left: 20px;
     padding-right: 10px;
     text-decoration: none;
@@ -39,7 +41,8 @@ nav {
     cursor: pointer;
     position: relative;
 }
-nav :hover{
+
+nav :hover {
     background-color: white;
 }
 
@@ -54,7 +57,8 @@ nav :hover{
     width: 800px;
     border-radius: 15px;
     box-shadow: 3px 3px 1px #3c2ab4;
-    font-size:  large;
+    font-size: large;
+    display: flex;
 }
 
 img {
