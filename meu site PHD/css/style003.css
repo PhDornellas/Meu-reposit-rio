@@ -72,3 +72,10 @@ h1{
     font-size: large;
     
 }
+footer {
+    background-color: #4731d4;
+    text-align: center;
+    border: solid #4731d4 5px;
+    color: white;
+    margin-top: 40px;
+    }
